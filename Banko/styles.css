@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 2px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(255, 108, 54);
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+#withdraw-warning,
+#deposit-warning {
+  color: rgb(197, 12, 12);
+}
+
+#withdraw-success {
+  color: rgb(31, 185, 31);
+}
+
+#depositSelection,
+#balanceCheckSelection,
+#withdrawSelection {
+  display: none;
+}
